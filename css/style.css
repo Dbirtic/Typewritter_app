@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200, 100, 400');
+
+body{
+    font-family: 'Raleways', sans-serif;
+    height: 100vh;
+    background: url('../IMG_20170618_203900.jpg') no-repeat center center / cover;
+    color: rgb(100, 250, 0);
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+h1, h2{
+    
+}
