@@ -4,7 +4,7 @@ body{
     font-family: 'Raleways', sans-serif;
     height: 100vh;
     background: url('../IMG_20170618_203900.jpg') no-repeat center center / cover;
-    color: rgb(100, 250, 0);
+    color: rgb(200, 200, 200);
     overflow: hidden;
 }
 
@@ -17,5 +17,39 @@ body{
 }
 
 h1, h2{
-    
+    font-weight: 200;
+    margin: 0.4rem;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    color: rgb(255, 255, 255)
+}
+
+@media(min-width: 1200px){
+    h1{
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 800px){
+    .container{
+        padding: 0 1rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
 }
